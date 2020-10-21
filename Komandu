@@ -1,0 +1,7 @@
+Формирование файлов, производиться в командной строке, находясь в директории
+расположения файлов texi из которых формируются руководства
+texi2any --html --no-split make.texi -o ../rezultat/make.html
+texi2any --info --no-split make.texi -o ../rezultat/make.info
+
+firefox ../rezultat/make.html
+info ../rezultat/make.info
